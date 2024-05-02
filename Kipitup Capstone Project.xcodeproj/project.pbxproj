@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F4C01652BD1CC5E00EC8C02 /* Info_Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F4C01642BD1CC5E00EC8C02 /* Info_Debug.plist */; };
+		0F4C01672BD1CF6400EC8C02 /* Info_Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F4C01662BD1CF6400EC8C02 /* Info_Release.plist */; };
+		0F7DC9342B6B2DF90075E209 /* Kipitup Capstone Project Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0F7DC9332B6B2DF90075E209 /* Kipitup Capstone Project Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0F7DC9392B6B2DF90075E209 /* Kipitup_Capstone_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7DC9382B6B2DF90075E209 /* Kipitup_Capstone_ProjectApp.swift */; };
+		0F7DC93B2B6B2DF90075E209 /* Main Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7DC93A2B6B2DF90075E209 /* Main Screen.swift */; };
+		0F7DC93D2B6B2DFA0075E209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7DC93C2B6B2DFA0075E209 /* Assets.xcassets */; };
+		0F7DC9402B6B2DFA0075E209 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7DC93F2B6B2DFA0075E209 /* Preview Assets.xcassets */; };
+		0F7DC94A2B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7DC9492B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppTests.swift */; };
+		0F7DC9542B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7DC9532B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppUITests.swift */; };
+		0F7DC9562B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7DC9552B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppUITestsLaunchTests.swift */; };
+		0F9649332BD1C85900AC0ECE /* Bangers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9649252BD1C06D00AC0ECE /* Bangers-Regular.ttf */; };
+		0FACDF0F2B86E5010094E861 /* Voice Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FACDF0E2B86E5010094E861 /* Voice Input.swift */; };
+		0FACDF112B8703030094E861 /* Confirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FACDF102B8703030094E861 /* Confirmation.swift */; };
+		0FACDF132B9011FB0094E861 /* Processing Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FACDF122B9011FB0094E861 /* Processing Query.swift */; };
+		0FACDF1B2B990E170094E861 /* User Onboarding 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FACDF1A2B990E170094E861 /* User Onboarding 1.swift */; };
+		0FACDF1D2B99126E0094E861 /* User Onboarding 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FACDF1C2B99126E0094E861 /* User Onboarding 2.swift */; };
+		0FACDF1F2B9913DF0094E861 /* User Onboarding 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FACDF1E2B9913DF0094E861 /* User Onboarding 3.swift */; };
+		0FACDF212B99149F0094E861 /* User Onboarding 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FACDF202B99149F0094E861 /* User Onboarding 4.swift */; };
+		0FACDF232B9915950094E861 /* New User Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FACDF222B9915950094E861 /* New User Splash.swift */; };
+		0FACDF252BA113840094E861 /* Unrelated Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FACDF242BA113840094E861 /* Unrelated Query.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F7DC9352B6B2DF90075E209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F7DC9272B6B2DF90075E209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7DC9322B6B2DF90075E209;
+			remoteInfo = "Elevate Capstone Project Watch App";
+		};
+		0F7DC9462B6B2DFA0075E209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F7DC9272B6B2DF90075E209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7DC9322B6B2DF90075E209;
+			remoteInfo = "Elevate Capstone Project Watch App";
+		};
+		0F7DC9502B6B2DFA0075E209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F7DC9272B6B2DF90075E209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7DC9322B6B2DF90075E209;
+			remoteInfo = "Elevate Capstone Project Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F7DC95C2B6B2DFA0075E209 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0F7DC9342B6B2DF90075E209 /* Kipitup Capstone Project Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F4C01642BD1CC5E00EC8C02 /* Info_Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_Debug.plist; sourceTree = "<group>"; };
+		0F4C01662BD1CF6400EC8C02 /* Info_Release.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_Release.plist; sourceTree = "<group>"; };
+		0F7DC92D2B6B2DF90075E209 /* Kipitup Capstone Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kipitup Capstone Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7DC9332B6B2DF90075E209 /* Kipitup Capstone Project Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kipitup Capstone Project Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7DC9382B6B2DF90075E209 /* Kipitup_Capstone_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kipitup_Capstone_ProjectApp.swift; sourceTree = "<group>"; };
+		0F7DC93A2B6B2DF90075E209 /* Main Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main Screen.swift"; sourceTree = "<group>"; };
+		0F7DC93C2B6B2DFA0075E209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F7DC93F2B6B2DFA0075E209 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F7DC9452B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kipitup Capstone Project Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7DC9492B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevate_Capstone_Project_Watch_AppTests.swift; sourceTree = "<group>"; };
+		0F7DC94F2B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kipitup Capstone Project Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7DC9532B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevate_Capstone_Project_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		0F7DC9552B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevate_Capstone_Project_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F9649252BD1C06D00AC0ECE /* Bangers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bangers-Regular.ttf"; sourceTree = "<group>"; };
+		0FACDF0E2B86E5010094E861 /* Voice Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Voice Input.swift"; sourceTree = "<group>"; };
+		0FACDF102B8703030094E861 /* Confirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confirmation.swift; sourceTree = "<group>"; };
+		0FACDF122B9011FB0094E861 /* Processing Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Processing Query.swift"; sourceTree = "<group>"; };
+		0FACDF1A2B990E170094E861 /* User Onboarding 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User Onboarding 1.swift"; sourceTree = "<group>"; };
+		0FACDF1C2B99126E0094E861 /* User Onboarding 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User Onboarding 2.swift"; sourceTree = "<group>"; };
+		0FACDF1E2B9913DF0094E861 /* User Onboarding 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User Onboarding 3.swift"; sourceTree = "<group>"; };
+		0FACDF202B99149F0094E861 /* User Onboarding 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User Onboarding 4.swift"; sourceTree = "<group>"; };
+		0FACDF222B9915950094E861 /* New User Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New User Splash.swift"; sourceTree = "<group>"; };
+		0FACDF242BA113840094E861 /* Unrelated Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unrelated Query.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7DC9302B6B2DF90075E209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7DC9422B6B2DFA0075E209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7DC94C2B6B2DFA0075E209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7DC9262B6B2DF90075E209 = {
+			isa = PBXGroup;
+			children = (
+				0F7DC9372B6B2DF90075E209 /* Kipitup Capstone Project Watch App */,
+				0F7DC9482B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppTests */,
+				0F7DC9522B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppUITests */,
+				0F7DC92E2B6B2DF90075E209 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F7DC92E2B6B2DF90075E209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F7DC92D2B6B2DF90075E209 /* Kipitup Capstone Project.app */,
+				0F7DC9332B6B2DF90075E209 /* Kipitup Capstone Project Watch App.app */,
+				0F7DC9452B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppTests.xctest */,
+				0F7DC94F2B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F7DC9372B6B2DF90075E209 /* Kipitup Capstone Project Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0F7DC9382B6B2DF90075E209 /* Kipitup_Capstone_ProjectApp.swift */,
+				0FACDF222B9915950094E861 /* New User Splash.swift */,
+				0FACDF1A2B990E170094E861 /* User Onboarding 1.swift */,
+				0FACDF1C2B99126E0094E861 /* User Onboarding 2.swift */,
+				0FACDF1E2B9913DF0094E861 /* User Onboarding 3.swift */,
+				0FACDF202B99149F0094E861 /* User Onboarding 4.swift */,
+				0F7DC93A2B6B2DF90075E209 /* Main Screen.swift */,
+				0FACDF0E2B86E5010094E861 /* Voice Input.swift */,
+				0FACDF122B9011FB0094E861 /* Processing Query.swift */,
+				0FACDF242BA113840094E861 /* Unrelated Query.swift */,
+				0FACDF102B8703030094E861 /* Confirmation.swift */,
+				0F4C01642BD1CC5E00EC8C02 /* Info_Debug.plist */,
+				0F4C01662BD1CF6400EC8C02 /* Info_Release.plist */,
+				0F7DC93C2B6B2DFA0075E209 /* Assets.xcassets */,
+				0F9649252BD1C06D00AC0ECE /* Bangers-Regular.ttf */,
+				0F7DC93E2B6B2DFA0075E209 /* Preview Content */,
+			);
+			path = "Kipitup Capstone Project Watch App";
+			sourceTree = "<group>";
+		};
+		0F7DC93E2B6B2DFA0075E209 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0F7DC93F2B6B2DFA0075E209 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0F7DC9482B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7DC9492B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppTests.swift */,
+			);
+			path = "Kipitup Capstone Project Watch AppTests";
+			sourceTree = "<group>";
+		};
+		0F7DC9522B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7DC9532B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppUITests.swift */,
+				0F7DC9552B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Kipitup Capstone Project Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F7DC92C2B6B2DF90075E209 /* Kipitup Capstone Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7DC95D2B6B2DFA0075E209 /* Build configuration list for PBXNativeTarget "Kipitup Capstone Project" */;
+			buildPhases = (
+				0F7DC92B2B6B2DF90075E209 /* Resources */,
+				0F7DC95C2B6B2DFA0075E209 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F7DC9362B6B2DF90075E209 /* PBXTargetDependency */,
+			);
+			name = "Kipitup Capstone Project";
+			productName = "Elevate Capstone Project";
+			productReference = 0F7DC92D2B6B2DF90075E209 /* Kipitup Capstone Project.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0F7DC9322B6B2DF90075E209 /* Kipitup Capstone Project Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7DC9592B6B2DFA0075E209 /* Build configuration list for PBXNativeTarget "Kipitup Capstone Project Watch App" */;
+			buildPhases = (
+				0F7DC92F2B6B2DF90075E209 /* Sources */,
+				0F7DC9302B6B2DF90075E209 /* Frameworks */,
+				0F7DC9312B6B2DF90075E209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kipitup Capstone Project Watch App";
+			productName = "Elevate Capstone Project Watch App";
+			productReference = 0F7DC9332B6B2DF90075E209 /* Kipitup Capstone Project Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F7DC9442B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7DC9602B6B2DFA0075E209 /* Build configuration list for PBXNativeTarget "Kipitup Capstone Project Watch AppTests" */;
+			buildPhases = (
+				0F7DC9412B6B2DFA0075E209 /* Sources */,
+				0F7DC9422B6B2DFA0075E209 /* Frameworks */,
+				0F7DC9432B6B2DFA0075E209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F7DC9472B6B2DFA0075E209 /* PBXTargetDependency */,
+			);
+			name = "Kipitup Capstone Project Watch AppTests";
+			productName = "Elevate Capstone Project Watch AppTests";
+			productReference = 0F7DC9452B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F7DC94E2B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7DC9632B6B2DFA0075E209 /* Build configuration list for PBXNativeTarget "Kipitup Capstone Project Watch AppUITests" */;
+			buildPhases = (
+				0F7DC94B2B6B2DFA0075E209 /* Sources */,
+				0F7DC94C2B6B2DFA0075E209 /* Frameworks */,
+				0F7DC94D2B6B2DFA0075E209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F7DC9512B6B2DFA0075E209 /* PBXTargetDependency */,
+			);
+			name = "Kipitup Capstone Project Watch AppUITests";
+			productName = "Elevate Capstone Project Watch AppUITests";
+			productReference = 0F7DC94F2B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F7DC9272B6B2DF90075E209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					0F7DC92C2B6B2DF90075E209 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					0F7DC9322B6B2DF90075E209 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					0F7DC9442B6B2DFA0075E209 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0F7DC9322B6B2DF90075E209;
+					};
+					0F7DC94E2B6B2DFA0075E209 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0F7DC9322B6B2DF90075E209;
+					};
+				};
+			};
+			buildConfigurationList = 0F7DC92A2B6B2DF90075E209 /* Build configuration list for PBXProject "Kipitup Capstone Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F7DC9262B6B2DF90075E209;
+			productRefGroup = 0F7DC92E2B6B2DF90075E209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F7DC92C2B6B2DF90075E209 /* Kipitup Capstone Project */,
+				0F7DC9322B6B2DF90075E209 /* Kipitup Capstone Project Watch App */,
+				0F7DC9442B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppTests */,
+				0F7DC94E2B6B2DFA0075E209 /* Kipitup Capstone Project Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F7DC92B2B6B2DF90075E209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7DC9312B6B2DF90075E209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4C01652BD1CC5E00EC8C02 /* Info_Debug.plist in Resources */,
+				0F7DC9402B6B2DFA0075E209 /* Preview Assets.xcassets in Resources */,
+				0F7DC93D2B6B2DFA0075E209 /* Assets.xcassets in Resources */,
+				0F4C01672BD1CF6400EC8C02 /* Info_Release.plist in Resources */,
+				0F9649332BD1C85900AC0ECE /* Bangers-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7DC9432B6B2DFA0075E209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7DC94D2B6B2DFA0075E209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7DC92F2B6B2DF90075E209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FACDF112B8703030094E861 /* Confirmation.swift in Sources */,
+				0F7DC93B2B6B2DF90075E209 /* Main Screen.swift in Sources */,
+				0FACDF1B2B990E170094E861 /* User Onboarding 1.swift in Sources */,
+				0FACDF0F2B86E5010094E861 /* Voice Input.swift in Sources */,
+				0FACDF232B9915950094E861 /* New User Splash.swift in Sources */,
+				0FACDF252BA113840094E861 /* Unrelated Query.swift in Sources */,
+				0FACDF132B9011FB0094E861 /* Processing Query.swift in Sources */,
+				0FACDF1F2B9913DF0094E861 /* User Onboarding 3.swift in Sources */,
+				0FACDF212B99149F0094E861 /* User Onboarding 4.swift in Sources */,
+				0F7DC9392B6B2DF90075E209 /* Kipitup_Capstone_ProjectApp.swift in Sources */,
+				0FACDF1D2B99126E0094E861 /* User Onboarding 2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7DC9412B6B2DFA0075E209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7DC94A2B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7DC94B2B6B2DFA0075E209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7DC9562B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppUITestsLaunchTests.swift in Sources */,
+				0F7DC9542B6B2DFA0075E209 /* Elevate_Capstone_Project_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F7DC9362B6B2DF90075E209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F7DC9322B6B2DF90075E209 /* Kipitup Capstone Project Watch App */;
+			targetProxy = 0F7DC9352B6B2DF90075E209 /* PBXContainerItemProxy */;
+		};
+		0F7DC9472B6B2DFA0075E209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F7DC9322B6B2DF90075E209 /* Kipitup Capstone Project Watch App */;
+			targetProxy = 0F7DC9462B6B2DFA0075E209 /* PBXContainerItemProxy */;
+		};
+		0F7DC9512B6B2DFA0075E209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F7DC9322B6B2DF90075E209 /* Kipitup Capstone Project Watch App */;
+			targetProxy = 0F7DC9502B6B2DFA0075E209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F7DC9572B6B2DFA0075E209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/kripasitaraman/Desktop/Elevate Capstone Project/Elevate Capstone Project Watch App/Info.plist";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F7DC9582B6B2DFA0075E209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/kripasitaraman/Desktop/Elevate Capstone Project/Elevate Capstone Project Watch App/Info.plist";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0F7DC95A2B6B2DFA0075E209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kipitup Capstone Project Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 868XH568AJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = "Kipitup Capstone Project Watch App/Info_Debug.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Kipitup Capstone Project";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_MAP_FILE_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elevate.Elevate-Capstone-Project.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		0F7DC95B2B6B2DFA0075E209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kipitup Capstone Project Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 868XH568AJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = "Kipitup Capstone Project Watch App/Info_Release.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Kipitup Capstone Project";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_MAP_FILE_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elevate.Elevate-Capstone-Project.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		0F7DC95E2B6B2DFA0075E209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 868XH568AJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "Elevate Capstone Project";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elevate.Elevate-Capstone-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0F7DC95F2B6B2DFA0075E209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 868XH568AJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "Elevate Capstone Project";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elevate.Elevate-Capstone-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F7DC9612B6B2DFA0075E209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 868XH568AJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elevate.Elevate-Capstone-Project-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kipitup Capstone Project Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kipitup Capstone Project Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		0F7DC9622B6B2DFA0075E209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 868XH568AJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elevate.Elevate-Capstone-Project-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kipitup Capstone Project Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kipitup Capstone Project Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		0F7DC9642B6B2DFA0075E209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 868XH568AJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elevate.Elevate-Capstone-Project-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Elevate Capstone Project Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		0F7DC9652B6B2DFA0075E209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 868XH568AJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elevate.Elevate-Capstone-Project-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Elevate Capstone Project Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F7DC92A2B6B2DF90075E209 /* Build configuration list for PBXProject "Kipitup Capstone Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7DC9572B6B2DFA0075E209 /* Debug */,
+				0F7DC9582B6B2DFA0075E209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7DC9592B6B2DFA0075E209 /* Build configuration list for PBXNativeTarget "Kipitup Capstone Project Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7DC95A2B6B2DFA0075E209 /* Debug */,
+				0F7DC95B2B6B2DFA0075E209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7DC95D2B6B2DFA0075E209 /* Build configuration list for PBXNativeTarget "Kipitup Capstone Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7DC95E2B6B2DFA0075E209 /* Debug */,
+				0F7DC95F2B6B2DFA0075E209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7DC9602B6B2DFA0075E209 /* Build configuration list for PBXNativeTarget "Kipitup Capstone Project Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7DC9612B6B2DFA0075E209 /* Debug */,
+				0F7DC9622B6B2DFA0075E209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7DC9632B6B2DFA0075E209 /* Build configuration list for PBXNativeTarget "Kipitup Capstone Project Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7DC9642B6B2DFA0075E209 /* Debug */,
+				0F7DC9652B6B2DFA0075E209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F7DC9272B6B2DF90075E209 /* Project object */;
+}
